@@ -1,0 +1,6 @@
+/* Linker script for the $CHIP */
+MEMORY
+{
+  FLASH : ORIGIN = 0x08000000, LENGTH = {{FLASH_SIZE}}
+  RAM : ORIGIN = 0x20000000, LENGTH = {{RAM_SIZE}}
+}
